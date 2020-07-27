@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "cd client && taro build --type weapp",
+    "dev": "cd client && npm run build -- --watch"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.0.26"
   }

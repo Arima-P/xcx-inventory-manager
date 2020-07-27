@@ -1,14 +1,13 @@
-const cloud = require('wx-server-sdk')
+const cloud = require("wx-server-sdk");
 
-cloud.init()
-
+cloud.init();
 
 exports.main = async () => {
-  const wxContext = cloud.getWXContext()
+  const wxContext = cloud.getWXContext();
 
   return {
     openid: wxContext.OPENID,
     appid: wxContext.APPID,
     unionid: wxContext.UNIONID,
-  }
-}
+  };
+};

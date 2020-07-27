@@ -3,7 +3,7 @@ export default {
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
-    navigationBarTitleText: 'WeChat',
+    navigationBarTitleText: '库存管理器',
     navigationBarTextStyle: 'black'
   },
   cloud: true,
